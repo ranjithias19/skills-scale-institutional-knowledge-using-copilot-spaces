@@ -4,22 +4,23 @@
 Guidance for managing day-to-day execution and tracking progress toward project milestones.
 
 ## Team Rhythm
-- Daily standups (15 min) — focus on progress, blockers, dependencies
+- Daily standups (15 min) — focus on progress, blockers, dependencies (with roles as needed: QA, DevOps, UX)
 - Weekly delivery sync — show progress, updates, and flagged risks
-- Demo/Review at the end of each sprint or milestone
+- Demo/Review at the end of each sprint or milestone, involving key personas (QA, UX, Stakeholders, etc.)
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
-  - Run automated tests and linting in CI before requesting review
-  - Require at least one approval before merging (or team-defined policy)
+  - Run automated tests and linting in CI before requesting review (with QA/DevOps)
+  - Require at least one approval before merging (team-defined policy)
 
 ## Quality & Testing
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
+- Usability and accessibility validation with UX
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
 
@@ -35,6 +36,6 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
-- [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] CI configured for tests and lint (DevOps review)
+- [ ] Regular demos scheduled (with QA/UX/Stakeholders)
+- [ ] Risk register updated weekly (including new roles)
