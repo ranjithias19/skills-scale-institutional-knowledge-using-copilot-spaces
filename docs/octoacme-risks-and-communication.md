@@ -12,16 +12,15 @@ Maintain a simple table with:
 - Owner
 - Mitigation plan
 - Status
-- Involved roles/personas
 
 ## Risk Lifecycle
-- Identify: during planning and ongoing execution (include all roles as input sources)
-- Assess: estimate impact and likelihood (collaborate with BA, QA, DevOps, Stakeholders)
-- Mitigate: reduced via actions, contingency plans (assignable to all persona types)
+- Identify: during planning and ongoing execution
+- Assess: estimate impact and likelihood
+- Mitigate: reduced via actions, contingency plans
 - Monitor: review at weekly syncs and update status
 
 ## Stakeholder Communication
-- Identify stakeholder groups and communication needs (e.g., engineering, sales, support, UX/BA feedback)
+- Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
 
@@ -31,14 +30,12 @@ Weekly Status Template:
 - Next steps:
 - Risks & blockers:
 - Ask / decisions needed:
-- Involved roles/personas:
 
 Incident Communication
 - Triage summary
 - Actions being taken
 - Expected timeline
 - Post-incident blameless retrospective scheduled
-- Involved roles/personas:
 
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
